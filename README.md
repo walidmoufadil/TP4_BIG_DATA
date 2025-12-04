@@ -49,85 +49,82 @@ Le CSV `bike_sharing.csv` se trouve dans `src/main/resources/` et est chargé pa
 
 Ci-dessous la documentation de chaque capture fournie dans `src/main/resources/screens/` : un titre, une courte description et l'image intégrée. Ces figures aident à comprendre la sortie et le comportement attendu du programme.
 
-Figure 1 — Aperçu général
-
-Description : capture d'écran montrant l'interface ou l'aperçu global de l'application / du rapport produit par le TP. Utile pour donner un contexte visuel du projet.
 
 ![Figure 1 — Aperçu général](src/main/resources/screens/screen1.png)
 
-Figure 2 — Schéma du DataFrame
+Figure 1 — Schéma du DataFrame
 
 Description : affiche le schéma (colonnes et types) du DataFrame après le chargement du CSV. Permet de vérifier que l'inférence de schéma et les noms de colonnes sont corrects.
 
 ![Figure 2 — Schéma du DataFrame](src/main/resources/screens/screen2.png)
 
-Figure 3 — Premières lignes du jeu de données
+Figure 2 — Premières lignes du jeu de données
 
 Description : montre les premières lignes (ex. df.show(5)). Utile pour valider le format des colonnes (dates, entiers, chaînes) et repérer valeurs manquantes ou anomalies.
 
 ![Figure 3 — Premières lignes](src/main/resources/screens/screen3.png)
 
-Figure 4 — Nombre total de locations
+Figure 3 — Nombre total de locations
 
 Description : capture illustrant l'affichage du nombre total de locations (résultat de df.count()). Sert de métrique d'ensemble rapide.
 
 ![Figure 4 — Nombre total de locations](src/main/resources/screens/screen4.png)
 
-Figure 5 — Requêtes SQL exemples
+Figure 4 — Requêtes SQL exemples
 
 Description : exemple d'exécution de requêtes Spark SQL sur la vue temporaire (sélections, filtres). Montre la syntaxe et résultats attendus.
 
 ![Figure 5 — Requêtes SQL exemple](src/main/resources/screens/screen5.png)
 
-Figure 6 — Agrégations par station
+Figure 5 — Agrégations par station
 
 Description : résultat d'une agrégation GROUP BY start_station avec le nombre de locations par station. Permet d'identifier les stations les plus actives.
 
 ![Figure 6 — Agrégations par station](src/main/resources/screens/screen6.png)
 
-Figure 7 — Durée moyenne par station
+Figure 6 — Durée moyenne par station
 
 Description : affiche l'AVG(duration_minutes) par station — utile pour repérer stations avec trajets plus longs en moyenne.
 
 ![Figure 7 — Durée moyenne par station](src/main/resources/screens/screen7.png)
 
-Figure 8 — Heures de pointe (locations par heure)
+Figure 7 — Heures de pointe (locations par heure)
 
 Description : histogramme/tableau des locations par heure (colonne start_hour). Identifie les heures de pointe (matin/soir).
 
 ![Figure 8 — Heures de pointe](src/main/resources/screens/screen8.png)
 
-Figure 9 — Station la plus populaire
+Figure 8 — Station la plus populaire
 
 Description : résultat de la requête LIMIT 1 qui retourne la station avec le plus grand nombre de locations.
 
 ![Figure 9 — Station la plus populaire](src/main/resources/screens/screen9.png)
 
-Figure 10 — Analyse matin (7–12h)
+Figure 9 — Analyse matin (7–12h)
 
 Description : montre la station la plus populaire sur la plage horaire matin (7–12h). Utile pour les analyses temporelles ciblées.
 
 ![Figure 10 — Analyse matin](src/main/resources/screens/screen10.png)
 
-Figure 11 — Tranche d'âge
+Figure 10 — Tranche d'âge
 
 Description : distribution des locations par tranche d'âge (ex. 18-30, 31-40, ...). Permet d'analyser le profil des utilisateurs.
 
 ![Figure 11 — Tranche d'âge](src/main/resources/screens/screen11.png)
 
-Figure 12 — Répartition par genre
+Figure 11 — Répartition par genre
 
 Description : tableau/graphique montrant le nombre d'utilisateurs par genre (male/female/other). Aide à l'analyse démographique.
 
 ![Figure 12 — Répartition par genre](src/main/resources/screens/screen12.png)
 
-Figure 13 — Analyses complémentaires
+Figure 12 — Analyses complémentaires
 
 Description : captures additionnelles montrant d'autres requêtes ou visualisations (ex. revenue, top N, filtres spécifiques).
 
 ![Figure 13 — Analyses complémentaires](src/main/resources/screens/screen13.png)
 
-Figure 14 — Résumé / rapport final
+Figure 13 — Résumé / rapport final
 
 Description : écran de synthèse ou export final du rapport — récapitule les métriques principales et conclusions.
 
