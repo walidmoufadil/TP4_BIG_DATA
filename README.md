@@ -132,15 +132,5 @@ Description : écran de synthèse ou export final du rapport — récapitule les
 
 > Conseils rapides : si vous voulez alléger le dépôt, redimensionnez les images avant commit ou créez une galerie HTML distincte pour une mise en page plus riche.
 
-## Notes et bonnes pratiques
-
-- Si vous ajoutez de grosses images ou souhaitez améliorer la mise en page, pensez à redimensionner les images dans `src/main/resources/screens/` ou à créer une galerie HTML séparée.
-- Vérifiez la compatibilité des versions Spark/Maven si vous rencontrez des erreurs d'exécution.
-
-## Contact
-
-Pour toute question sur le TP, contactez l'auteur ou ouvrez une issue.
 
 ---
-
-README généré automatiquement.
